@@ -1,11 +1,11 @@
 # passport-http-bearer
 
-[![NPM version](https://img.shields.io/npm/v/@passport-next/passport-facebook.svg)](https://www.npmjs.com/package/@passport-next/passport-facebook)
-[![Build Status](https://travis-ci.org/passport-next/passport-facebook.svg?branch=master)](https://travis-ci.org/passport-next/passport-facebook)
-[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-facebook/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-facebook?branch=master)
+[![NPM version](https://img.shields.io/npm/v/@passport-next/passport-http-bearer.svg)](https://www.npmjs.com/package/@passport-next/passport-http-bearer)
+[![Build Status](https://travis-ci.org/passport-next/passport-http-bearer.svg?branch=master)](https://travis-ci.org/passport-next/passport-http-bearer)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-http-bearer/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-http-bearer?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b0e8ebd6d4441c50a951/maintainability)](https://codeclimate.com/github/passport-next/passport-http-bearer/maintainability)
-[![Dependencies](https://david-dm.org/passport-next/passport-facebook.png)](https://david-dm.org/passport-next/passport-facebook)
-<!--[![SAST](https://gitlab.com/passport-next/passport-facebook/badges/master/build.svg)](https://gitlab.com/passport-next/passport-facebook/badges/master/build.svg)-->
+[![Dependencies](https://david-dm.org/passport-next/passport-http-bearer.png)](https://david-dm.org/passport-next/passport-http-bearer)
+<!--[![SAST](https://gitlab.com/passport-next/passport-http-bearer/badges/master/build.svg)](https://gitlab.com/passport-next/passport-http-bearer/badges/master/build.svg)-->
 
 HTTP Bearer authentication strategy for [Passport](https://github.com/passport-next).
 
