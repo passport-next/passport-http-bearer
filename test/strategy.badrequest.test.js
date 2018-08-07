@@ -15,7 +15,7 @@ describe('Strategy', function() {
     var status;
     
     before(function(done) {
-      chai.passport(strategy)
+      chai.passport.use(strategy)
         .fail(function(s) {
           status = s;
           done();
@@ -27,7 +27,7 @@ describe('Strategy', function() {
     });
     
     it('should fail with status', function() {
-      expect(status).to.be.a.number;
+      expect(status).to.be.a('number');
       expect(status).to.equal(400);
     });
   });
@@ -36,7 +36,7 @@ describe('Strategy', function() {
     var status;
     
     before(function(done) {
-      chai.passport(strategy)
+      chai.passport.use(strategy)
         .fail(function(s) {
           status = s;
           done();
@@ -50,7 +50,7 @@ describe('Strategy', function() {
     });
     
     it('should fail with status', function() {
-      expect(status).to.be.a.number;
+      expect(status).to.be.a('number');
       expect(status).to.equal(400);
     });
   });

@@ -1,6 +1,6 @@
 {
-  "name": "passport-http-bearer",
-  "version": "1.0.1",
+  "name": "@passport-next/passport-http-bearer",
+  "version": "1.2.0",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -16,15 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-bearer.git"
+    "url": "git://github.com/passport-next/passport-http-bearer.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
+    "url": "http://github.com/passport-next/passport-http-bearer/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Rowan Wookey",
+    "email": "admin@rwky.net"
   },
   "licenses": [
     {
@@ -34,15 +33,15 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "1.x.x"
+    "@passport-next/passport-strategy": "1.1.x"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "chai": "1.x.x",
-    "chai-passport-strategy": "0.1.x"
+    "mocha": "5.x.x",
+    "chai": "4.x.x",
+    "@passport-next/chai-passport-strategy": "1.1.x"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">=6"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
@@ -51,7 +50,7 @@
     "browsers": [
       "chrome/latest"
     ],
-    "harness" : "mocha",
+    "harness": "mocha",
     "files": [
       "test/bootstrap/testling.js",
       "test/*.test.js"

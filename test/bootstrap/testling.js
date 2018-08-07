@@ -1,5 +1,5 @@
 var chai = require('chai')
-  , passport = require('chai-passport-strategy');
+  , passport = require('@passport-next/chai-passport-strategy');
 
 chai.use(passport);
 
