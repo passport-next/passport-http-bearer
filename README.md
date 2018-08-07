@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/@passport-next/passport-facebook.svg)](https://www.npmjs.com/package/@passport-next/passport-facebook)
 [![Build Status](https://travis-ci.org/passport-next/passport-facebook.svg?branch=master)](https://travis-ci.org/passport-next/passport-facebook)
 [![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-facebook/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-facebook?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d260f366c44991e2613c/maintainability)](https://codeclimate.com/github/passport-next/passport-facebook/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b0e8ebd6d4441c50a951/maintainability)](https://codeclimate.com/github/passport-next/passport-http-bearer/maintainability)
 [![Dependencies](https://david-dm.org/passport-next/passport-facebook.png)](https://david-dm.org/passport-next/passport-facebook)
 <!--[![SAST](https://gitlab.com/passport-next/passport-facebook/badges/master/build.svg)](https://gitlab.com/passport-next/passport-facebook/badges/master/build.svg)-->
 
